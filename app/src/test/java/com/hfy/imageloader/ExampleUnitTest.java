@@ -1,4 +1,4 @@
-package com.hfy.imageloaderdemo;
+package com.hfy.imageloader;
 
 import org.junit.Test;
 

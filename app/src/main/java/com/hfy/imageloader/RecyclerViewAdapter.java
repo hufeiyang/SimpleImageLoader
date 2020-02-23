@@ -1,4 +1,4 @@
-package com.hfy.imageloaderdemo;
+package com.hfy.imageloader;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,8 +9,6 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.hfy.imageloader.ImageLoader;
 
 import java.util.ArrayList;
 
