@@ -1,4 +1,4 @@
-package com.hfy.imageloader;
+package com.hfy.imageloaderdemo;
 
 class DataBean {
 

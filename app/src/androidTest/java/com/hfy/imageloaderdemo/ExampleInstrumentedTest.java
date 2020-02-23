@@ -1,4 +1,4 @@
-package com.hfy.imageloader;
+package com.hfy.imageloaderdemo;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.hfy.imageloader", appContext.getPackageName());
+        assertEquals("com.hfy.imageloaderdemo", appContext.getPackageName());
     }
 }
