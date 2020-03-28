@@ -1,5 +1,9 @@
 apply plugin: 'com.android.library'
 
+//新添加,为了上传到JCenter
+apply plugin: 'com.novoda.bintray-release'
+
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.1"
@@ -33,4 +37,14 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.jakewharton:disklrucache:2.0.2'
 
+}
+
+//新添加,为了上传到JCenter
+publish {
+    userOrg = 'hufeiyang'           //在https://bintray.com上注册的用户名
+    groupId = 'com.hfy.imageloader' //jCenter上的路径
+    artifactId = 'imageloader'      //要上传的library名称（和二、4中的package相同）
+    publishVersion = '1.0.0'        //library的版本号
+    desc = 'A bitmap load library~' //library的简单描述
+    website = 'https://github.com/hufeiyang/SimpleImageLoader' //library的开源地址，例如在github上的地址
 }
